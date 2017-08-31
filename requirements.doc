@@ -19,6 +19,7 @@ Functional Requirements
 13. Reminders for appointments
 14. Secure encryption
 15. Protection from SQL Injections
+16. Alert safety feature to primary care doctor if patient misses an amount of appointments and/or medication
 
 Non-functional Requirements
 1. Must be able to be organized by various categories like name, illness, and clinic
