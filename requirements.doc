@@ -13,7 +13,10 @@ Functional Requirements
 6. Schedule treatment options
 7. Track attendance of clinic appointments
 8. Create functional UX
-9. Create username and password functionality for users
+9. Create login functionality for users
+  a. Username and Password
+    i. Store hashed passwords
+  b. Login Page
 10. Fetch user information from MySQL Database
 11. Allow user input for patients and doctor information
 12. Reminders for appointments
