@@ -26,3 +26,4 @@ Non-functional Requirements
 2. Information must be able to be quickly accessed and edited
 3. Remove old, outdated, or unnecessary informations
 4. Patients and Doctors have a different GUI w/ different options
+5. Maintaining a level of privacy that is in accordance with HIPAA(Health Insurance Portability and Accountability Act)
