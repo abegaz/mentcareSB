@@ -17,4 +17,4 @@ A patient information system to support mental health care is a medical informat
 
 **Non-functional**
 * Use Java
-* 
+* HIPAA Compliance
