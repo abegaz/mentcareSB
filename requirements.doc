@@ -32,3 +32,4 @@ Non-functional Requirements
 4. Remove old, outdated, or unnecessary information
 5. Patients and Doctors have a different GUI w/ different options
 6. Maintaining a level of privacy that is in accordance with HIPAA(Health Insurance Portability and Accountability Act)
+7. The code must be reliable to use in long run
