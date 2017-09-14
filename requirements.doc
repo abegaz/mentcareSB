@@ -24,6 +24,7 @@ Functional Requirements
 14. Protection from SQL Injections
 15. Alert safety feature to primary care doctor if patient misses an amount of appointments and/or medication
 16. Mitigate XSS
+17. Change patient's Doctor
 
 Non-functional Requirements
 1. Must use JavaFX for coding
