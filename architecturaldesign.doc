@@ -2,7 +2,7 @@ Architectural Design: Client-Server
 
 Clients: Physicians, Doctors, Patients
 
-Server used:
+Server used: 
 
 Database used: MySQL Server
 
