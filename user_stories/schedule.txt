@@ -1,0 +1,8 @@
+Front
+As a user, I want to schedule an appointment.
+
+Note: Assumes either doctor or patient
+Back
+* Set date and time schedule
+* List involved parties (doctor, patient)
+* Checks for scheduling conflicts
