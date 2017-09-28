@@ -6,6 +6,7 @@ Patient
 - lastName: String = "Eric"
 - illness: String[] = "nihilism"
 
+
 + getID () : int
 + setID (id : int) 
 + getFirstName () : String
