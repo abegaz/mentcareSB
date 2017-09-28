@@ -1,0 +1,15 @@
+Patient
+
+
+- id: int = "-1"
+- firstName: String = "Jenn"
+- lastName: String = "Eric"
+- illness: String[] = "nihilism"
+
++ getID () : int
++ setID (id : int) 
++ getFirstName () : String
++ getLastName () : String
++ setFirstName(first : String)
++ setLastName(first : String)
+...

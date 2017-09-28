@@ -1,0 +1,8 @@
+Front
+As a doctor, I want to add a patient into the system if s/he needs treatment.
+
+Note: assumes doctor has patient's information or can get patient informatiomation
+Back
+* requests information from user
+* uses data given to fill out a new entry in the database of patients
+

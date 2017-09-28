@@ -1,0 +1,9 @@
+Front
+As Dr. Watson, I want to be able to update the information regarding my patients.
+
+Note: Assumed doctor has access to patient data
+Back
+* Able to Read/Write patient data
+o Deleting data misses the point, amend instead
+* Information saves to database
+* Pleasing UX
