@@ -1,6 +1,12 @@
 Clinic 
 
+specialty: String = "General"
+rating: int clinicRating = 1;
 location: String = "Dahlonega"
 
++getSpecialty() : String
++setSpecialty(): (specialty: String)
++getRating() : int
++setRating(): (clinicRating: int)
 +getLocation() : String
 +setLocation() : (location : String)
