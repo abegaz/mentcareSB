@@ -32,6 +32,11 @@ Doctor sends edited data to inputbox
 Program updates information
 New information is displayed
 
-+------------+     +---------+      +---------+
-| User Input | --> | Program | -->  | Display |
-+------------+     +---------+      +---------+
++------------+     +---------+     +---------+
+| User Input | --> | Program | --> | Display |
++------------+     +---------+     +---------+
+      /\ 		|
+      ||		|
+      \/		|	   +--------+ 
+      ++----------------+------<-> | Server |
+				   +--------+
