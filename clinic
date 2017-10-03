@@ -1,0 +1,6 @@
+Clinic 
+
+location: String = "Dahlonega"
+
++getLocation() : String
++setLocation() : (location : String)
