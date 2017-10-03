@@ -1,12 +1,12 @@
 Clinic 
 
 specialty: String = "General"
-rating: int clinicRating = 1;
+rating: float clinicRating = 1.0;
 location: String = "Dahlonega"
 
 +getSpecialty() : String
 +setSpecialty(): (specialty: String)
-+getRating() : int
-+setRating(): (clinicRating: int)
++getRating() : float
++setRating(): (clinicRating: float)
 +getLocation() : String
 +setLocation() : (location : String)
