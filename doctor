@@ -4,7 +4,6 @@ id; int = "-1"
 firstName: String = "John"
 lastName: String = "Doe"
 specialty: psychiatrist
-treatment: "x drug"
 clinic: "x clinic"
 
 +getID() : int
