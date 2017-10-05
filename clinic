@@ -3,6 +3,7 @@ Clinic
 specialty: String = "General"
 rating: float clinicRating = 1.0;
 location: String = "Dahlonega"
+hours: String = "8:00a - 8:00p"
 
 +getSpecialty() : String
 +setSpecialty(): (specialty: String)
@@ -10,3 +11,4 @@ location: String = "Dahlonega"
 +setRating(): (clinicRating: float)
 +getLocation() : String
 +setLocation() : (location : String)
++getHours() : String
