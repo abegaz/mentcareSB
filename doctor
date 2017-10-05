@@ -9,7 +9,10 @@ clinic: "x clinic"
 +getID() : int
 +setID(id : int)
 +getFirstName() : String
-+getLastName() : String
 +setFirstName(first : String)
++getLastName() : String
 +setLastName(first : String)
 +getSpecialty() : String
++setSpecialty(specialty : String)
++getClinic() : String
++setClinic(clinic : String)
