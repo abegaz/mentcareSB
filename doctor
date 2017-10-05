@@ -12,3 +12,4 @@ clinic: "x clinic"
 +getLastName() : String
 +setFirstName(first : String)
 +setLastName(first : String)
++getSpecialty() : String
