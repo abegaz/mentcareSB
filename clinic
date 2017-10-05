@@ -12,3 +12,4 @@ hours: String = "8:00a - 8:00p"
 +getLocation() : String
 +setLocation() : (location : String)
 +getHours() : String
++setHours(hours : String)
