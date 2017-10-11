@@ -18,7 +18,7 @@ Patient
 + getPhoneNumber () : String
 + getAge () : int
 + getTreatment () : String
-+ getTreatment(treatment : String)
++ setTreatment(treatment : String)
 + setFirstName(first : String)
 + setLastName(last : String)
 + setEmail(email : String)
