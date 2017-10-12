@@ -1,0 +1,35 @@
+MentCareSB.Clinic
+doctorsEmployed : varchar(45) PRIMARY KEY
+location : varchar(45)
+rating : int(2)
+speciality : varchar(45)
+hoursOpen : varchar(45)
+
+
+MentCareSB.Doctor
+idNumber : int(11) PRIMARY KEY AUTO INCREMENT
+firstName : varchar(45)
+lastName : varchar(45)
+specialty : varchar(45)
+clinic : varchar(45)
+assignedPatients : varchar(45)
+password : varchar(45)
+
+
+MentCareSB.Patient
+idNumber : int(11) PRIMARY KEY AUTO INCREMENT
+firstName : varchar(45)
+lastName : varchar(45)
+illness : varchar(500)
+emailAddress : varchar(45)
+phoneNumber : varchar(45)
+age : int(3)
+treatment : varchar(500)
+licenseNumber : varchar(45)
+assignedDoctor : varchar(45)
+notes : varchar(500)
+password : varchar(45)
+bloodType : varchar(45)
+socialSecurity : varchar(45)
+height : varchar(45)
+weight : varchar(45)
