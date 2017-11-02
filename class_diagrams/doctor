@@ -3,8 +3,8 @@ Doctor
 id; int = "-1"
 firstName: String = "John"
 lastName: String = "Doe"
-specialty: "psychiatrist"
-clinic: "x clinic"
+specialty: String = "psychiatrist"
+clinic: String = "x clinic"
 
 +getID() : int
 +setID(id : int)
