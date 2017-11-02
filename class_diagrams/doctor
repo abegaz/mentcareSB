@@ -1,0 +1,18 @@
+Doctor
+
+id; int = "-1"
+firstName: String = "John"
+lastName: String = "Doe"
+specialty: String = "psychiatrist"
+clinic: String = "x clinic"
+
++getID() : int
++setID(id : int)
++getFirstName() : String
++setFirstName(first : String)
++getLastName() : String
++setLastName(first : String)
++getSpecialty() : String
++setSpecialty(specialty : String)
++getClinic() : String
++setClinic(clinic : String)

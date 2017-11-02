@@ -1,0 +1,8 @@
+Front
+As a user, I want to track my recovery.
+
+Note: Assumes either the patient involved or involved doctors/physicians 
+Back
+* Records notes for recovery
+* Calls all previous notes attached to a patients file
+

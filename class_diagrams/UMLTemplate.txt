@@ -1,0 +1,16 @@
+Class Name
+
+
+/*Visibility*/ attribute_name: attribute_type = "default value" {Other Properties,RO}
+...
+
+/*Visibility*/ operationName (paramName : paramType) : returnTypeUnlessVoid
+...
+
+----
+Everything here is notes only
+
+Visibility
+	+ public
+	- private
+	# protected

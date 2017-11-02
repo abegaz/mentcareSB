@@ -1,0 +1,27 @@
+Patient
+
+
+- id: int = "-1"
+- firstName: String = "Jenn"
+- lastName: String = "Eric"
+- illness: String[] = "nihilism"
+- emailAddress: String = "Jenn.Eric@Gmail.com"
+- phoneNumber: String = "770-867-5309"
+- age: int = "21"
+- treatment: String = "Medicine"
+
++ getID () : int
++ setID (id : int) 
++ getFirstName () : String
++ getLastName () : String
++ getEmail () : String
++ getPhoneNumber () : String
++ getAge () : int
++ getTreatment () : String
++ setTreatment(treatment : String)
++ setFirstName(first : String)
++ setLastName(last : String)
++ setEmail(email : String)
++ setPhoneNumber(phoneNum : String)
++ setAge(age : int)
+...

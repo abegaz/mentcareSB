@@ -1,6 +1,5 @@
-Requirements:
-
-Functional Requirements
+*Core Requirements*
+Functional:
 1. Maintain patient information
   a. Add Patient to system
   b. Edit Patient information
@@ -9,9 +8,9 @@ Functional Requirements
   a. Mark recovery
 3. Track previous treatments and dosages
 4. List specialist clinics
+  a. There will be a list of available clinics
 5. List doctors and specialists
 6. Schedule treatment options
-7. Track attendance of clinic appointments
 8. Create functional UX
 9. Create login functionality for users
   a. Username and Password
@@ -19,18 +18,24 @@ Functional Requirements
   b. Login Page
 10. Fetch user information from MySQL Database
 11. Allow user input for patients and doctor information
-12. Reminders for appointments
 13. Secure encryption
 14. Protection from SQL Injections
-15. Alert safety feature to primary care doctor if patient misses an amount of appointments and/or medication
 16. Mitigate XSS
 17. Change patient's Doctor
-
-Non-functional Requirements
+Very good!
+Non-functional:
 1. Must use JavaFX for coding
-2. Must be able to be organized by various categories like name, illness, and clinic
 3. Information must be able to be quickly accessed and edited
 4. Remove old, outdated, or unnecessary information
 5. Patients and Doctors have a different GUI w/ different options
 6. Maintaining a level of privacy that is in accordance with HIPAA(Health Insurance Portability and Accountability Act)
 7. The code must be reliable to use in long run
+Very good!
+
+*Additional Requirements*
+Functional:
+7. Track attendance of clinic appointments
+12. Reminders for appointments
+15. Alert safety feature to primary care doctor if patient misses an amount of appointments and/or medication
+Non-functional:
+2. Must be able to be organized by various categories like name, illness, and clinic

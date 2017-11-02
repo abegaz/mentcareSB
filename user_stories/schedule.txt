@@ -1,0 +1,10 @@
+*Additional
+
+Front
+As a doctor, I want to schedule an appointment with my patient so that both the patient and I am aware when our next meeting will be.
+
+Note: Assumes doctor has a patient that need to have another appointment scheduled
+Back
+* Set date and time schedule
+* List involved parties (doctor, patient)
+* Checks for scheduling conflicts

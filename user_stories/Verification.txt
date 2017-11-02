@@ -1,0 +1,7 @@
+Front:
+As a patient, John Doe, I want doctors to be verified as authentic specialists to ensure safety.
+
+Back:
+1) Ensure that all doctors are actually doctors.
+2) Indicate verified doctors with a symbol and those that are pending verification with a different symbol.
+3) Execute immediate action against those who do not verify their authenticity.
