@@ -1,0 +1,16 @@
+Nurse
+
+- id: int = "-1"
+- firstName: String = "Nobody"
+- lastName: String = "Reads"
+- task: String = "Wallow in student debt"
+
++ getID () : int
++ setID (id : int) 
++ getFirstName () : String
++ getLastName () : String
++ setFirstName(first : String)
++ setLastName(last : String)
++ getTask() : String
++ setTask(task : String)
+...
