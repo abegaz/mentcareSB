@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="96.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MentCareSB.controller.RegistrationController">
+   <children>
+      <Label layoutX="120.0" layoutY="14.0" text="Registration Type" />
+      <Button fx:id="doctorRegistrationButton" layoutX="67.0" layoutY="48.0" mnemonicParsing="false" onAction="#doctorRegistration" text="Doctor" />
+      <Button fx:id="nurseRegistrationButton" layoutX="213.0" layoutY="48.0" mnemonicParsing="false" onAction="#nurseRegistration" text="Nurse" />
+   </children>
+</AnchorPane>

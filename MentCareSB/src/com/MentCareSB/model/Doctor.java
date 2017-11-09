@@ -1,16 +1,16 @@
 package com.MentCareSB.model;
 
-public class Doctor 
+public class Doctor
 {
 	private int id;
 	private String firstName;
 	private String lastName;
 	private String specialty;
 	private String clinic;
-	
-	
-	
-	
+
+
+
+
 	public Doctor(int id, String firstName, String lastName, String specialty, String clinic) {
 		super();
 		this.id = id;
@@ -21,7 +21,7 @@ public class Doctor
 	}
 	public Doctor()
 	{
-		
+
 	}
 	public int getId() {
 		return id;
@@ -53,9 +53,9 @@ public class Doctor
 	public void setClinic(String clinic) {
 		this.clinic = clinic;
 	}
-		
-			
-			
-			
-			
+
+
+
+
+
 }
