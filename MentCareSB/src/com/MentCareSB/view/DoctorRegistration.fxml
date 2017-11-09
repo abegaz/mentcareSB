@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FlowPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="80.0" prefWidth="510.0">
+               <children>
+                  <Label id="reglbl" layoutX="12.0" prefHeight="83.0" prefWidth="498.0" text="New Doctor Registration">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="506.0" prefWidth="539.0">
+               <children>
+                  <GridPane layoutX="14.0" prefHeight="399.0" prefWidth="229.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label id="firstlbl" text="First name">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label id="lastlbl" text="Last Name" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label id="speclbl" text="Specialty" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label id="cliniclbl" text="Clinic" GridPane.rowIndex="3">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label id="userlbl" text="Username" GridPane.rowIndex="4">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label id="cpasslbl" text="Create password" GridPane.rowIndex="5">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label id="repasslbl" text="Re-enter password" GridPane.rowIndex="6">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </GridPane>
+                  <GridPane layoutX="270.0" prefHeight="399.0" prefWidth="260.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <PasswordField id="cpassfield" GridPane.rowIndex="6" />
+                        <PasswordField id="repassfield" GridPane.rowIndex="5" />
+                        <TextField id="firsttxtfld" GridPane.rowIndex="4" />
+                        <TextField id="lasttxtfld" GridPane.rowIndex="3" />
+                        <TextField id="usertxtfld" GridPane.rowIndex="2" />
+                        <TextField id="clinictxtfld" GridPane.rowIndex="1" />
+                        <TextField id="specialtxtfld" />
+                     </children>
+                  </GridPane>
+                  <AnchorPane layoutX="363.0" layoutY="420.0" prefHeight="72.0" prefWidth="144.0">
+                     <children>
+                        <Button id="submitbtn" layoutX="21.0" layoutY="11.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="112.0" text="Submit">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>
