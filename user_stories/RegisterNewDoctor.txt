@@ -1,8 +1,0 @@
-Front
-As a new doctor, I want to be able to register myself as specialist so that my patients can find me based on location, specialty, or availability.
-
-Note:
-Back
-* Requests full name, specialty, and location
-* Assigns doctor to a clinic
-* 

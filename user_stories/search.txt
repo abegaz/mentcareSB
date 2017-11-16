@@ -1,9 +1,0 @@
-*Additional
-
-Front
-As Patient Zero, I want to search for services based on what’s important to me so I can make an informed decision.
-
-Back
-* List shows all doctors, clinics, and specialists. 
-* Sortable by type (Like doctor rating, distance, cost, provider’s beliefs)
-* User is able to select service to get more information

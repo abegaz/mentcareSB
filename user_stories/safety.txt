@@ -1,7 +1,0 @@
-﻿Front
-As a patient, John Doe, I want my information to be only seen by me and my doctor.
-
-Back
-•	Ensure Secure Encryption
-•	Protection from SQL Injections
-•	Shielding from Buffer Overflow

@@ -1,7 +1,0 @@
-Front
-As a specialist clinic, I want to my location to be listed available to the patients.
-
-Note: Assumes the specialist and patients have access to the database
-Back
-•	maintains a list of clinics
-

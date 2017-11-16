@@ -1,7 +1,0 @@
-Front 
-As a patient, I want to be able to change doctors to get the treatments that fit my needs.
-
-Back:
-1) User should see list of doctors that they can change to
-2) This list of doctors should show their fields, experience, and treatments options
-3) User should be able to request change in doctors 

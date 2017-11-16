@@ -1,8 +1,0 @@
-Front
-As a user, Jenn Eric, I want to log in to access the functions provided to me.
-
-Back
-* Username six or more characters
-* Password at least eight characters
-* Program responds to failed attempt with a message
-* Program refuses log in after three failed attempts

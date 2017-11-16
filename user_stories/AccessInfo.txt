@@ -1,6 +1,0 @@
-Front
-As a patient, I want to log in to access my information
-
-Back
-1. User should be able to log in and see information accessable to the user
-2. User should not be able to see information that is not part of the user
