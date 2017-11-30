@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MentCareSB.controller.LogInController">
+   <children>
+      <TextField fx:id="usernameField" layoutX="140.0" layoutY="92.0" />
+      <Label layoutX="66.0" layoutY="96.0" prefHeight="17.0" prefWidth="77.0" text="Username" />
+      <Label layoutX="65.0" layoutY="138.0" prefHeight="17.0" prefWidth="64.0" text="Password" />
+      <PasswordField fx:id="passwordField" layoutX="140.0" layoutY="134.0" />
+      <Button layoutX="47.0" layoutY="185.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="25.0" prefWidth="100.0" text="Login" />
+      <Button layoutX="164.0" layoutY="185.0" mnemonicParsing="false" onAction="#registerAction" prefHeight="25.0" prefWidth="149.0" text="Doctor Registration" />
+      <ImageView id="mentCareLogo" fitHeight="56.0" fitWidth="225.0" layoutX="104.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MentCareLogo.PNG" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

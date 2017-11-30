@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="661.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MentCareSB.controller.PatientRegistrationController">
+   <children>
+      <Button layoutX="74.0" layoutY="589.0" mnemonicParsing="false" onAction="#registerPatient" prefHeight="31.0" prefWidth="139.0" text="Register" />
+      <Button layoutX="301.0" layoutY="589.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="118.0" text="Back" />
+      <TextField fx:id="userNameField" layoutX="172.0" layoutY="210.0" promptText="Enter Username" />
+      <TextField fx:id="passwordField" layoutX="172.0" layoutY="249.0" promptText="Enter Password" />
+      <Label layoutX="138.0" layoutY="49.0" text="Patient Registration">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstNameField" layoutX="172.0" layoutY="100.0" promptText="Enter First Name" />
+      <TextField fx:id="lastNameField" layoutX="172.0" layoutY="138.0" promptText="Enter Last Name" />
+      <TextField fx:id="illnessField" layoutX="172.0" layoutY="173.0" promptText="Enter Illness" />
+      <TableView fx:id="clinicTableView" layoutX="74.0" layoutY="292.0" prefHeight="257.0" prefWidth="345.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="111.0" text="Name" />
+          <TableColumn fx:id="locationColumn" prefWidth="233.0" text="Location" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

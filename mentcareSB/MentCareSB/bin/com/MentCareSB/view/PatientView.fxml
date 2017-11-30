@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="574.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MentCareSB.controller.PatientViewController">
+   <children>
+      <TabPane prefHeight="574.0" prefWidth="631.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="General">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="531.0" prefWidth="631.0">
+                     <children>
+                        <Label fx:id="nameLabel" layoutX="51.0" layoutY="39.0" prefHeight="57.0" prefWidth="351.0" text="Patient Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="assignedClinicLabel1" layoutX="51.0" layoutY="106.0" prefHeight="57.0" prefWidth="384.0" text="Clinic Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="assignedDoctorLabel1" layoutX="51.0" layoutY="163.0" prefHeight="57.0" prefWidth="398.0" text="Doctor Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="507.0" layoutY="437.0" mnemonicParsing="false" onAction="#logOut" text="Log Out" />
+                        <Button layoutX="51.0" layoutY="437.0" mnemonicParsing="false" onAction="#updateInfo" text="Update Personal Info" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Appointments">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="34.0" layoutY="14.0" prefHeight="119.0" prefWidth="567.0" text="If you would like to schedule an appointment please contact your assigned Doctor or Nurse." wrapText="true">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="34.0" layoutY="150.0" prefHeight="36.0" prefWidth="250.0" text="Your upcoming appointments: ">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="appointmentTableView" layoutX="34.0" layoutY="215.0" prefHeight="265.0" prefWidth="544.0">
+                          <columns>
+                            <TableColumn fx:id="locationAppointmentColumn" prefWidth="161.99996948242188" text="Where" />
+                            <TableColumn fx:id="timeColumn" prefWidth="198.0" text="Time" />
+                              <TableColumn fx:id="doctorColumn" prefWidth="182.0" text="Doctor" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Medical Information">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="ageLabel" layoutX="41.0" layoutY="21.0" prefHeight="52.0" prefWidth="207.0" text="Age : " />
+                        <Label fx:id="heightLabel" layoutX="39.0" layoutY="56.0" prefHeight="52.0" prefWidth="216.0" text="Height : " />
+                        <Label fx:id="weightLabel" layoutX="39.0" layoutY="93.0" prefHeight="52.0" prefWidth="205.0" text="Weight : " />
+                        <Label fx:id="illnessLabel" layoutX="39.0" layoutY="134.0" prefHeight="52.0" prefWidth="160.0" text="Illness : " />
+                        <TableView fx:id="medicationTableView" layoutX="60.0" layoutY="205.0" prefHeight="266.0" prefWidth="512.0">
+                          <columns>
+                            <TableColumn fx:id="nameMedicationColumn" prefWidth="156.99996948242188" text="Name" />
+                            <TableColumn fx:id="usageColumn" prefWidth="156.0" text="Usage" />
+                              <TableColumn fx:id="dosageColumn" prefWidth="198.0" text="Dosage" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+          <Tab text="Clinic">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="clinicTableView" layoutX="70.0" layoutY="142.0" prefHeight="272.0" prefWidth="470.0">
+                          <columns>
+                            <TableColumn fx:id="nameColumn" prefWidth="191.99996948242188" text="Name" />
+                            <TableColumn fx:id="locationColumn" prefWidth="277.0" text="Location" />
+                          </columns>
+                        </TableView>
+                        <Label fx:id="assignedClinicLabel2" layoutX="70.0" layoutY="49.0" prefHeight="57.0" prefWidth="469.0" text="Clinic Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="70.0" layoutY="444.0" mnemonicParsing="false" onAction="#changeClinic" prefHeight="31.0" prefWidth="201.0" text="Change to a Selected Clinic" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Doctor">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="doctorListTableView" layoutX="74.0" layoutY="133.0" prefHeight="253.0" prefWidth="488.0">
+                          <columns>
+                            <TableColumn fx:id="firstNameColumn" prefWidth="133.0" text="First Name" />
+                              <TableColumn fx:id="lastNameColumn" prefWidth="121.0" text="Last Name" />
+                              <TableColumn fx:id="specialtyColumn" prefWidth="233.0" text="Specialty" />
+                          </columns>
+                        </TableView>
+                        <Button layoutX="74.0" layoutY="424.0" mnemonicParsing="false" onAction="#changeDoctor" text="Change to a Selected Doctor" />
+                        <Label fx:id="assignedDoctorLabel2" layoutX="74.0" layoutY="39.0" prefHeight="57.0" prefWidth="454.0" text="Doctor Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

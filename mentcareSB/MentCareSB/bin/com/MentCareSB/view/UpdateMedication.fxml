@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="539.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MentCareSB.controller.UpdateMedicationController">
+   <children>
+      <TableView fx:id="medicationTableView" layoutX="91.0" layoutY="111.0" prefHeight="307.0" prefWidth="416.0">
+        <columns>
+          <TableColumn fx:id="nameColumn2" prefWidth="108.0" text="Name" />
+          <TableColumn fx:id="usageColumn2" prefWidth="143.0" text="Usage" />
+            <TableColumn fx:id="dosageColumn2" prefWidth="164.0" text="Dosage" />
+        </columns>
+      </TableView>
+      <TableView fx:id="assignedMedicationTableView" layoutX="563.0" layoutY="111.0" prefHeight="307.0" prefWidth="416.0">
+        <columns>
+          <TableColumn fx:id="nameColumn1" prefWidth="112.0" text="Name" />
+          <TableColumn fx:id="usageColumn1" prefWidth="142.0" text="Usage" />
+            <TableColumn fx:id="dosageColumn1" prefWidth="161.0" text="Dosage" />
+        </columns>
+      </TableView>
+      <Label layoutX="380.0" layoutY="43.0" text="Update Medication">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="91.0" layoutY="445.0" mnemonicParsing="false" onAction="#addMedication" prefHeight="37.0" prefWidth="122.0" text="Add Medication" />
+      <Button layoutX="563.0" layoutY="445.0" mnemonicParsing="false" onAction="#removeMedication" prefHeight="37.0" prefWidth="131.0" text="Remove Medication" />
+      <Button layoutX="908.0" layoutY="445.0" mnemonicParsing="false" onAction="#back" prefHeight="37.0" prefWidth="71.0" text="Back" />
+   </children>
+</AnchorPane>

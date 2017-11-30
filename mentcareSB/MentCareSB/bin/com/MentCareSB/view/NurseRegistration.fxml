@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MentCareSB.controller.NurseRegistrationController">
+   <children>
+      <Button layoutX="47.0" layoutY="509.0" mnemonicParsing="false" onAction="#registerNurse" prefHeight="36.0" prefWidth="60.0" text="Register" />
+      <Button layoutX="438.0" layoutY="513.0" mnemonicParsing="false" onAction="#back" prefHeight="36.0" prefWidth="60.0" text="Back" />
+      <TextField fx:id="usernameField" layoutX="232.0" layoutY="176.0" promptText="Enter Username" />
+      <TextField fx:id="passwordField" layoutX="232.0" layoutY="219.0" promptText="Enter Password" />
+      <Label layoutX="158.0" layoutY="29.0" text="Nurse Registration">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstNameField" layoutX="232.0" layoutY="92.0" promptText="Enter First Name" />
+      <TextField fx:id="lastNameField" layoutX="232.0" layoutY="135.0" promptText="Enter Last Name" />
+      <TableView fx:id="clinicTableView" layoutX="47.0" layoutY="271.0" prefHeight="229.0" prefWidth="442.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="142.0" text="Name" />
+          <TableColumn fx:id="locationColumn" prefWidth="299.0" text="Location" />
+        </columns>
+      </TableView>
+      <Label layoutX="158.0" layoutY="96.0" text="First Name" />
+      <Label layoutX="158.0" layoutY="139.0" text="Last Name" />
+      <Label layoutX="158.0" layoutY="180.0" text="Username" />
+      <Label layoutX="158.0" layoutY="223.0" text="Password" />
+   </children>
+</AnchorPane>

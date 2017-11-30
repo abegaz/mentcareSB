@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="377.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MentCareSB.controller.DoctorRegistrationController">
+   <children>
+      <Button layoutX="32.0" layoutY="313.0" mnemonicParsing="false" onAction="#registerDoctor" prefHeight="31.0" prefWidth="100.0" text="Register" />
+      <TextField fx:id="usernameField" layoutX="99.0" layoutY="215.0" promptText="Enter Username" />
+      <TextField fx:id="passwordField" layoutX="99.0" layoutY="266.0" promptText="Enter Password" />
+      <Button layoutX="174.0" layoutY="313.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="74.0" text="Back" />
+      <Label layoutX="34.0" layoutY="7.0" prefHeight="36.0" prefWidth="246.0" text="Doctor Registration">
+         <font>
+            <Font name="Symbol" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstnameField" layoutX="99.0" layoutY="65.0" promptText="Enter First Name" />
+      <TextField fx:id="lastnameField" layoutX="99.0" layoutY="115.0" promptText="Enter Last Name" />
+      <TextField fx:id="specialtyField" layoutX="99.0" layoutY="166.0" promptText="Enter Specialty" />
+      <Label layoutX="29.0" layoutY="69.0" text="First Name" />
+      <Label layoutX="30.0" layoutY="119.0" text="Last Name" />
+      <Label layoutX="34.0" layoutY="170.0" text="Specialty" />
+      <Label layoutX="31.0" layoutY="219.0" text="Username" />
+      <Label layoutX="33.0" layoutY="270.0" text="Password" />
+   </children>
+</AnchorPane>
